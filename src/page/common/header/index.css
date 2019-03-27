@@ -1,0 +1,28 @@
+.header {
+    height: 110px;
+    background-color: #fff;
+}
+.header .logo {
+    float: left;
+}
+.header .logo img {
+    margin-top: 35px;
+}
+.header .nav {
+    display: inline-block;
+    margin-left: 120px;
+    height: 110px;
+    font-size: 24px;
+}
+.header .nav ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 140px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+}
+.header .nav ul li.active {
+    border-bottom: 3px solid #3585f9;
+    color: #3585f9;
+}

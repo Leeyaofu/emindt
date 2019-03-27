@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%= require('html-loader!./layout/head-common.html') %>
+    <title><%= htmlWebpackPlugin.options.title%></title>
+</head>
+<body>
+<%= require('html-loader!./layout/header.html') %>
+    <div class="banner-con">
+        <div class="loading"></div>
+    </div>
+<div class="w">
+    <div class="phone-app">
+        <h2>手机APP</h2>
+        <ul>
+            <li>
+                <img src="<%= require('../image/icon-1.png') %>" alt="">
+                <h3>政府端</h3>
+                <p class="desc">为行政监管部门提供企业、项目、人员信息等查询，支持现场实时查看。</p>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-2.png') %>" alt="">
+                <h3>企业端</h3>
+                <p class="desc">为建筑企业提供全面的项目、班组、分包信息查询,掌握项目的分布与进展过程。</p>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-3.png') %>" alt="">
+                <h3>项目端</h3>
+                <p class="desc">实时查看各个项目的工时统计和完成进度，随时掌握在场人员考勤信息。</p>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-4.png') %>" alt="">
+                <h3>班组端</h3>
+                <p class="desc">实现面对面考勤，可自由组建子班组，分配工人协同管理。</p>
+            </li>
+        </ul>
+    </div>
+    <div class="phone-app product">
+        <h2>产品中心</h2>
+        <ul>
+            <li>
+                <img src="<%= require('../image/icon-1.png') %>" alt="">
+                <h3>政府版管理系统</h3>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-2.png') %>" alt="">
+                <h3>企业版管理系统</h3>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-3.png') %>" alt="">
+                <h3>项目端系统</h3>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-5.png') %>" alt="">
+                <h3>班组记工本</h3>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-6.png') %>" alt="">
+                <h3>智能硬件设备</h3>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="solution">
+    <div class="w">
+        <h2>我们的实名制方案能解决以下问题</h2>
+        <ul>
+            <li>
+                <img src="<%= require('../image/icon-7.png') %>" alt="">
+                <h3>民工不愿意考勤</h3>
+                <p class="desc">民工不愿意受约束，不太配合按规则刷卡，导致实名制推行效果差，项目上获取不到真实的民工考勤数据。</p>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-8.png') %>" alt="">
+                <h3>实名制考勤与劳务结算脱节</h3>
+                <p class="desc">实名制考勤数据未与劳务结算挂钩，自然引不起重视，推行实名制考勤大多流于形式，成了摆设。</p>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-9.png') %>" alt="">
+                <h3>代班长抑制利益被透明化</h3>
+                <p class="desc">代班长的利益多半来自于人头差，一旦所有劳务人员真实考勤后，代班长的利益会被透明，所以推行实名制在代班长的环节有阻力。</p>
+            </li>
+            <li>
+                <img src="<%= require('../image/icon-10.png') %>" alt="">
+                <h3>企业执行力度不到位</h3>
+                <p class="desc">企业管理者不能第一时间掌握到异常数据，所以不能很好的将制定的管理制度有针对性的执行到位。</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="about">
+    <div class="w">
+        <div class="img-wrap">
+            <img src="<%= require('../image/company.jpg')%>" alt="company">
+        </div>
+        <div class="content">
+            <h2>ABOUT US</h2>
+            <h3>杭州易民数据科技有限公司</h3>
+            <p class="desc">基于物联网、大数据、云计算的实名制管理系统专业服务商 杭州易民数据科技有限公司是一家专注于建筑业从业人员实名制管理综合运营服务的网 络公司。公司从建筑业人员实名制管理服务开始，集软件研发、系统集成、智能设备研 发、物联网及大数据分析应用、平台运营为一体的高科技企业。</p>
+            <a href="#" class="btn">更多详情</a>
+        </div>
+        <div class="phone-app product">
+            <h2>合作伙伴</h2>
+            <ul>
+                <li>
+                    <img src="<%= require('../image/p1.png') %>" alt="">
+                </li>
+                <li>
+                    <img src="<%= require('../image/p2.png') %>" alt="">
+                </li>
+                <li>
+                    <img src="<%= require('../image/p3.png') %>" alt="">
+                </li>
+                <li>
+                    <img src="<%= require('../image/p4.png') %>" alt="">
+                </li>
+                <li>
+                    <img src="<%= require('../image/p5.png') %>" alt="">
+                </li>
+                <li>
+                    <img src="<%= require('../image/p6.png') %>" alt="">
+                </li>
+                <li>
+                    <img src="<%= require('../image/p7.png') %>" alt="">
+                </li>
+                <li>
+                    <img src="<%= require('../image/p3.png') %>" alt="">
+                </li>
+            </ul>
+        </div>
+        <div style="text-align: center">
+            <img style="display: inline;" src="<%= require('../image/arrow.png') %>" alt="">
+        </div>
+    </div>
+</div>
+<div class="news">
+    <div class="w">
+        <h2>新闻中心</h2>
+        <div class="sub-title">
+            <span class="com-news">公司新闻</span>
+            <span class="industry-trends">行业动态</span>
+        </div>
+        <ul>
+            <li>
+                <div class="date">
+                    <span class="day">01/04</span>
+                    <br>
+                    <span class="year">2019</span>
+                </div>
+                <h3 class="title">国务院曝光十起农民工欠薪案件</h3>
+                <p class="content">近日国务院办公厅派出督查组，赴山西、内蒙古、黑龙江、浙江、湖南等5省区开展实地督查，共查处重点欠薪案件35起...</p>
+                <a href=""><i class="fa fa-chevron-circle-right" ></i></a>
+            </li>
+            <li>
+                <div class="date">
+                    <span class="day">01/04</span>
+                    <br>
+                    <span class="year">2019</span>
+                </div>
+                <h3 class="title">国务院曝光十起农民工欠薪案件</h3>
+                <p class="content">近日国务院办公厅派出督查组，赴山西、内蒙古、黑龙江、浙江、湖南等5省区开展实地督查，共查处重点欠薪案件35起...</p>
+                <a href=""><i class="fa fa-chevron-circle-right" ></i></a>
+            </li>
+            <li>
+                <div class="date">
+                    <span class="day">01/04</span>
+                    <br>
+                    <span class="year">2019</span>
+                </div>
+                <h3 class="title">国务院曝光十起农民工欠薪案件</h3>
+                <p class="content">近日国务院办公厅派出督查组，赴山西、内蒙古、黑龙江、浙江、湖南等5省区开展实地督查，共查处重点欠薪案件35起...</p>
+                <a href=""><i class="fa fa-chevron-circle-right" ></i></a>
+            </li>
+            <li>
+                <div class="date">
+                    <span class="day">01/04</span>
+                    <br>
+                    <span class="year">2019</span>
+                </div>
+                <h3 class="title">国务院曝光十起农民工欠薪案件</h3>
+                <p class="content">近日国务院办公厅派出督查组，赴山西、内蒙古、黑龙江、浙江、湖南等5省区开展实地督查，共查处重点欠薪案件35起...</p>
+                <a href=""><i class="fa fa-chevron-circle-right" ></i></a>
+            </li>
+        </ul>
+        <a href="#" class="btn">更多详情</a>
+    </div>
+</div>
+<%= require('html-loader!./layout/footer.html') %>
+</body>
+</html>

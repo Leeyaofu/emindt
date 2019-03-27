@@ -1,0 +1,288 @@
+.banner-con {
+    width: 100%;
+    height: 750px;
+    background-color: #eee;
+}
+
+.banner-con .loading {
+    margin-top: 375px;
+}
+
+.banner-con .banner-img {
+    width: 100%;
+    height: 750px;
+}
+
+/* banner的前一张和后一张按钮 */
+.banner-con .banner-arrow {
+    position: absolute;
+    top: 360px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    background: #ccc;
+    background: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.banner-con .banner-arrow:hover {
+    background: #aaa;
+    background: rgba(0, 0, 0, .5);
+}
+
+.banner-con .banner-arrow.prev {
+    left: 0;
+}
+
+.banner-con .banner-arrow.next {
+    right: 0;
+}
+.phone-app {
+    text-align: center;
+    padding-top: 145px;
+}
+.phone-app.product {
+    padding-bottom: 195px;
+}
+.phone-app h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 24px;
+    background: url('../../image/bottom-line.png') bottom no-repeat;
+    margin-bottom: 95px;
+}
+.phone-app img {
+    display: inline-block;
+}
+.phone-app li h3 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 44px;
+}
+.phone-app li h3:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -26px;
+    margin-left: -12.5px;
+    width: 25px;
+    border-bottom: 2px solid #999;
+
+}
+.phone-app ul li {
+    margin-left: -3px;
+    display: inline-block;
+    width: 25%;
+}
+.phone-app.product ul li {
+    width: 20%;
+}
+.phone-app ul li .desc {
+    margin-top: 62px;
+    padding: 0 22px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+}
+.solution {
+    width: 100%;
+    height: 880px;
+    padding-top: 146px;
+    font-size: 0;
+    box-sizing: border-box;
+    background: url('../../image/bg.jpg') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.solution h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 140px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+.solution h2:before,.solution h2:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    width: 40px;
+    border-bottom: 4px solid #fff;
+}
+.solution h2:before {
+    left: -80px;
+}
+.solution h2:after {
+    right: -80px;
+}
+.solution ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 320px;
+    height: 420px;
+    margin-right: 11px;
+    padding: 30px 28px 0 28px;
+    background-color: #fff;
+    border-radius: 4px;
+    vertical-align: top;
+}
+.solution ul li img {
+    display: inline-block;
+    margin-bottom: 70px;
+}
+.solution ul li h3 {
+    position: relative;
+    font-size: 22px;
+    line-height: 26px;
+}
+.solution ul li h3:before {
+    content: '';
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    border-bottom: 2px solid #999;
+}
+.solution ul li .desc {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}
+.about {
+    padding-top: 128px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+.about .img-wrap {
+    float: left;
+    margin-top: 127px;
+    border: 2px solid #3585f9;
+}
+.about .img-wrap img {
+    transform: translate(40px,40px);
+}
+.about .content {
+    width: 1356px;
+    height: 583px;
+    box-sizing: border-box;
+    background-color: #f5f6fa;
+    margin-left: 266px;
+    padding-left: 404px;
+    padding-top: 190px;
+}
+.about .content h2 {
+    font-size: 32px;
+    line-height: 32px;
+    color: #3585f9;
+    font-weight: bold;
+    padding-bottom: 40px;
+    margin-bottom: 45px;
+    background: url('../../image/bottom-line.png') left bottom no-repeat;
+}
+.about .content h3 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+.about .content .desc {
+    width: 650px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.about .content .btn {
+    transform: translateY(50px);
+}
+.about .phone-app ul li {
+    width: auto;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.about .phone-app.product {
+    padding-bottom: 85px;
+}
+.news {
+    width: 100%;
+    padding-top: 145px;
+    padding-bottom: 50px;
+    text-align: center;
+    background:#1b3453 url("../../image/bg-2.jpg") left top no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+.news h2 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 36px;
+    margin-bottom: 52px;
+    background: url("../../image/bottom-line.png") center bottom no-repeat;
+}
+.news .sub-title span {
+    display: inline-block;
+    margin-bottom: 85px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.news .sub-title .com-news {
+    color: #fff;
+    background: url("../../image/bg-news.png") no-repeat;
+}
+.news .sub-title .industry-trends {
+    color: #3585f9;
+    background: url("../../image/bgline-news.png") no-repeat;
+}
+
+.news ul li {
+    display: inline-block;
+    text-align: left;
+    width: 24.5%;
+}
+.news ul li .date {
+    box-sizing: border-box;
+    margin-bottom: 36px;
+    text-align: center;
+    width: 82px;
+    height: 96px;
+    padding-top: 30px;
+    border: 2px solid #fff;
+}
+.news ul li .date .day {
+    font-size: 20px;
+    line-height: 20px;
+}
+.news ul li .date .year {
+    font-size: 16px;
+    line-height: 16px;
+}
+.news ul li .title {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.news ul li .content {
+    display: -webkit-box;
+    -weblit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+    width: 295px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.news ul li .fa {
+    color: #fff;
+    font-size: 34px;
+}
+.news .btn {
+    margin-top: 134px;
+}
